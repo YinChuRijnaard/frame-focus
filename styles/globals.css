@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Inter:wght@100;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("/assets/images/grid.svg");
+}
+
+/* Typography classes */
+.title_text {
+  @apply text-6xl font-extrabold text-black;
+}
+
+.subtitle_text {
+  @apply text-2xl font-bold text-gray-700;
+}
