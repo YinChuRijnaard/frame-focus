@@ -14,6 +14,7 @@
     "@types/react-dom": "18.2.7",
     "next": "13.4.9",
     "next-sanity": "^5.1.2",
+    "next-sanity-image": "^6.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "remixicon": "^3.4.0",
