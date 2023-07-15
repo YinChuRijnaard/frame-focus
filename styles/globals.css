@@ -10,9 +10,18 @@ body {
 
 /* Typography classes */
 .title_text {
-  @apply text-6xl font-extrabold text-black;
+  @apply text-4xl text-black sm:text-6xl;
 }
 
-.subtitle_text {
-  @apply text-2xl font-bold text-gray-700;
+.desc {
+  @apply text-gray-700;
+}
+
+.link {
+  @apply hover:underline;
+}
+
+/* Page classes */
+.page_styling {
+  @apply mx-8 sm:mx-32;
 }
