@@ -5,6 +5,7 @@ import "remixicon/fonts/remixicon.css";
 
 import Nav from "@/components/Nav";
 import BannerCard from "@/components/BannerCard";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Frame Focus",
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Nav />
         <BannerCard />
         {children}
+        <Footer />
       </body>
     </html>
   );

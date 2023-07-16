@@ -10,10 +10,11 @@ const AllPhotos = async () => {
       }`);
 
   return (
-    <div className="bg-green-300 grid grid-cols-2 gap-4 sm:grid-cols-3">
+    // <div className="grid grid-cols-2 gap-4 grid-flow-row sm:grid-cols-3">
+    <div className="masonry sm:masonry-sm md:masonry-md">
       {allPhotoDetails?.map((photo: any) => (
         <div key={photo._id}>
-          <PhotoCard title={photo.name} src={photo.imageUrls} alt={photo.alt} />
+          <PhotoCard src={photo.imageUrls} alt={photo.alt} />
         </div>
       ))}
     </div>

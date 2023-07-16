@@ -29,3 +29,21 @@ body {
 .page_styling {
   @apply mx-8 sm:mx-32;
 }
+
+/* Masonry layout */
+@layer utilities {
+  @variants responsive {
+    .masonry {
+      column-gap: 0.5em;
+      column-count: 1;
+    }
+    .masonry-sm {
+      column-gap: 0.5em;
+      column-count: 2;
+    }
+    .masonry-md {
+      column-gap: 0.5em;
+      column-count: 3;
+    }
+  }
+}

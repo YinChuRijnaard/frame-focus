@@ -1,22 +1,20 @@
 import Image from "next/image";
 
 type PhotoCardProps = {
-  title: string;
   src: string;
   alt: string;
 };
 
-const PhotoCard = ({ title, src, alt }: PhotoCardProps) => {
+const PhotoCard = ({ src, alt }: PhotoCardProps) => {
   return (
-    <div className="border border-black">
-      <p>{title}</p>
+    <div>
       <Image
         // @ts-ignore
         src={src}
         height={500}
-        width={600}
+        width={500}
         alt={"alt"}
-        className="w-auto"
+        className="w-auto p-2 rounded-xl"
       />
     </div>
   );

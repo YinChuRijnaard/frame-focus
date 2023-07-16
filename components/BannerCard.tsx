@@ -10,7 +10,7 @@ const BannerCard = async () => {
   const url = src[0].imageUrl;
 
   return (
-    <>
+    <div className="mb-16">
       {banner?.map((x: any) => (
         <div key={x._id} className="space-y-4">
           <Image
@@ -22,7 +22,7 @@ const BannerCard = async () => {
           />
         </div>
       ))}
-    </>
+    </div>
   );
 };
 
