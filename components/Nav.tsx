@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <nav className="p-8 flex items-center justify-between sm:p-0 sm:my-8 sm:mx-32">
+    <nav className="text-white px-8 py-2 bg-neutral-900 flex items-center justify-between sm:px-32">
       <Link href="/" className="flex items-center justify-between space-x-4">
         <Image
           src={"/assets/images/pfp.jpg"}
-          width={62.5}
-          height={62.5}
+          width={50}
+          height={50}
           alt="Profile picture"
           className="rounded-full"
         />

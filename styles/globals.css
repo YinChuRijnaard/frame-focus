@@ -13,6 +13,10 @@ body {
   @apply text-4xl text-black sm:text-6xl;
 }
 
+.subtitle_text {
+  @apply text-2xl text-black sm:text-4xl;
+}
+
 .desc {
   @apply text-gray-700;
 }

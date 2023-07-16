@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import "remixicon/fonts/remixicon.css";
 
 import Nav from "@/components/Nav";
+import BannerCard from "@/components/BannerCard";
 
 export const metadata: Metadata = {
   title: "Frame Focus",
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Nav />
+        <BannerCard />
         {children}
       </body>
     </html>
