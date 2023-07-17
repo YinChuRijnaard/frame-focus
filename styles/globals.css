@@ -4,10 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-image: url("/assets/images/grid.svg");
-}
-
 /* Typography classes */
 .title_text {
   @apply text-4xl text-black sm:text-6xl;
@@ -44,6 +40,10 @@ body {
     .masonry-md {
       column-gap: 0.5em;
       column-count: 3;
+    }
+    .masonry-2xl {
+      column-gap: 0.5 em;
+      column-count: 4;
     }
   }
 }

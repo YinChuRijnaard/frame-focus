@@ -11,7 +11,7 @@ const AllPhotos = async () => {
 
   return (
     // <div className="grid grid-cols-2 gap-4 grid-flow-row sm:grid-cols-3">
-    <div className="masonry sm:masonry-sm md:masonry-md">
+    <div className="masonry sm:masonry-sm md:masonry-md 2xl:masonry-2xl">
       {allPhotoDetails?.map((photo: any) => (
         <div key={photo._id}>
           <PhotoCard src={photo.imageUrls} alt={photo.alt} />

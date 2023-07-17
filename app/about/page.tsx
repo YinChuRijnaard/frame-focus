@@ -14,12 +14,12 @@ const About = () => {
         <br />
         <br />
         Here you&apos;ll find photos I&apos;ve taken while on holiday or from
-        abroad. Ranging from nature/landscape photography to steel and concrete
-        cities, and all sorts of animals &#40;mostly cats &#40;and
-        dogs&#41;&#41;.
+        travelling abroad. Ranging from nature and landscape photography to
+        photographs of steel and concrete cities, and all sorts of animals
+        &#40;mostly cats and dogs&#41;.
         <br />
         <br />
-        All photos are taken by me.
+        All photos taken by me.
       </p>
 
       <Image
