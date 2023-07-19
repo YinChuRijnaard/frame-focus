@@ -9,7 +9,7 @@ const About = () => {
 
       <p className="desc text-center">
         Frame Focus is a photography blog, a passion project created and
-        maintained by Yin Chu Rijnaard, front end developer and avid
+        maintained by me, Yin Chu. I&apos;m a front end developer and avid
         &#40;holiday&#41; photographer.
         <br />
         <br />
@@ -19,7 +19,7 @@ const About = () => {
         &#40;mostly cats and dogs&#41;.
         <br />
         <br />
-        All photos taken by me.
+        All photos were taken by me.
       </p>
 
       <Image
