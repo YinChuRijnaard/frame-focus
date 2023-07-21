@@ -20,11 +20,11 @@ const Filters = () => {
 
       {/* Filters */}
       {filtersOpen ? (
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3">
           {/* Tag(s) filter */}
-          <div className="bg-neutral-100 max-w-full px-4 py-2">
-            <p className="font-bold">Tags</p>
-            <ul className="text-left">
+          <div className="max-w-full border border-neutral-200">
+            <p className="font-bold bg-neutral-100 px-4 py-2">Tags</p>
+            <ul className="text-left px-4 py-2">
               <li>Tag 1</li>
               <li>Tag 2</li>
               <li>Tag 3</li>
@@ -34,18 +34,18 @@ const Filters = () => {
           </div>
 
           {/* Date filter */}
-          <div className="bg-neutral-100 max-w-full px-4 py-2">
-            <p className="font-bold">Date</p>
-            <ul className="text-left">
+          <div className="max-w-full border-y border-neutral-200">
+            <p className="font-bold bg-neutral-100 px-4 py-2">Date</p>
+            <ul className="text-left px-4 py-2">
               <li>Newest first</li>
               <li>Oldest first</li>
             </ul>
           </div>
 
           {/* Likes filter */}
-          <div className="bg-neutral-100 max-w-full px-4 py-2">
-            <p className="font-bold">Likes</p>
-            <ul className="text-left">
+          <div className="max-w-full border border-neutral-200">
+            <p className="font-bold bg-neutral-100 px-4 py-2">Likes</p>
+            <ul className="text-left px-4 py-2">
               <li>Most liked first</li>
               <li>Least liked first</li>
             </ul>
